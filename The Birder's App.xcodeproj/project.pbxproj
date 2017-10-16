@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0DBE7B771F943A8C00764987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B761F943A8C00764987 /* AppDelegate.swift */; };
-		0DBE7B791F943A8C00764987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B781F943A8C00764987 /* ViewController.swift */; };
+		0DBE7B791F943A8C00764987 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B781F943A8C00764987 /* CountriesTableViewController.swift */; };
 		0DBE7B7C1F943A8C00764987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7A1F943A8C00764987 /* Main.storyboard */; };
 		0DBE7B7E1F943A8C00764987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7D1F943A8C00764987 /* Assets.xcassets */; };
 		0DBE7B811F943A8C00764987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */; };
+		0DBE7B891F943C8B00764987 /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */; };
+		0DBE7B8B1F943CC300764987 /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B8A1F943CC300764987 /* BirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0DBE7B731F943A8C00764987 /* The Birder's App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Birder's App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBE7B761F943A8C00764987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DBE7B781F943A8C00764987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DBE7B781F943A8C00764987 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
 		0DBE7B7B1F943A8C00764987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DBE7B7D1F943A8C00764987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DBE7B801F943A8C00764987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DBE7B821F943A8C00764987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
+		0DBE7B8A1F943CC300764987 /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0DBE7B761F943A8C00764987 /* AppDelegate.swift */,
-				0DBE7B781F943A8C00764987 /* ViewController.swift */,
+				0DBE7B781F943A8C00764987 /* CountriesTableViewController.swift */,
 				0DBE7B7A1F943A8C00764987 /* Main.storyboard */,
 				0DBE7B7D1F943A8C00764987 /* Assets.xcassets */,
 				0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */,
 				0DBE7B821F943A8C00764987 /* Info.plist */,
+				0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */,
+				0DBE7B8A1F943CC300764987 /* BirdViewController.swift */,
 			);
 			path = "The Birder's App";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DBE7B791F943A8C00764987 /* ViewController.swift in Sources */,
+				0DBE7B891F943C8B00764987 /* BirdsTableViewController.swift in Sources */,
+				0DBE7B791F943A8C00764987 /* CountriesTableViewController.swift in Sources */,
 				0DBE7B771F943A8C00764987 /* AppDelegate.swift in Sources */,
+				0DBE7B8B1F943CC300764987 /* BirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
