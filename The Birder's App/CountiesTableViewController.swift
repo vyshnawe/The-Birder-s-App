@@ -8,25 +8,25 @@
 
 import UIKit
 
-class CountriesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    var countries:[String]!  = ["India", "USA", "South America", "Australia"]
+class CountiesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     var tableView = UITableView()
     
     override func viewDidLoad() {
         tableView.frame = CGRect(x: 0, y: 10, width: self.view.frame.width, height: self.view.frame.height)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell_country")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell_county")
         tableView.delegate = self
         tableView.dataSource = self
         self.view.addSubview(tableView)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return countries.count
+        return State.counties.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell_country", for: indexPath)
-        cell.textLabel?.text = countries[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell_county", for: indexPath)
+        cell.textLabel?.text = State.counties[indexPath.row].name
         return cell
     }
     
@@ -39,7 +39,7 @@ class CountriesTableViewController: UIViewController, UITableViewDataSource, UIT
         // Examine CitiesFlownTableViewController -- you will see it defines an airline property that we configure here
         // so that by the time that TVC becomes visible, the airline's property & cities will be displayed to the user
         
-        birdsTVC.countryObj = countries[indexPath.row]
+        birdsTVC.countyObj = State.counties[indexPath.row]
         
         self.navigationController?.pushViewController(birdsTVC, animated: true)
     }

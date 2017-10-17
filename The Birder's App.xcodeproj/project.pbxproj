@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7259521F95716200D04F83 /* BirdsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7259511F95716200D04F83 /* BirdsData.swift */; };
 		0DBE7B771F943A8C00764987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B761F943A8C00764987 /* AppDelegate.swift */; };
-		0DBE7B791F943A8C00764987 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B781F943A8C00764987 /* CountriesTableViewController.swift */; };
+		0DBE7B791F943A8C00764987 /* CountiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B781F943A8C00764987 /* CountiesTableViewController.swift */; };
 		0DBE7B7C1F943A8C00764987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7A1F943A8C00764987 /* Main.storyboard */; };
 		0DBE7B7E1F943A8C00764987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7D1F943A8C00764987 /* Assets.xcassets */; };
 		0DBE7B811F943A8C00764987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */; };
@@ -17,9 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D7259511F95716200D04F83 /* BirdsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsData.swift; sourceTree = "<group>"; };
 		0DBE7B731F943A8C00764987 /* The Birder's App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Birder's App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBE7B761F943A8C00764987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DBE7B781F943A8C00764987 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		0DBE7B781F943A8C00764987 /* CountiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountiesTableViewController.swift; sourceTree = "<group>"; };
 		0DBE7B7B1F943A8C00764987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DBE7B7D1F943A8C00764987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DBE7B801F943A8C00764987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,13 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				0DBE7B761F943A8C00764987 /* AppDelegate.swift */,
-				0DBE7B781F943A8C00764987 /* CountriesTableViewController.swift */,
+				0DBE7B781F943A8C00764987 /* CountiesTableViewController.swift */,
 				0DBE7B7A1F943A8C00764987 /* Main.storyboard */,
 				0DBE7B7D1F943A8C00764987 /* Assets.xcassets */,
 				0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */,
 				0DBE7B821F943A8C00764987 /* Info.plist */,
 				0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */,
 				0DBE7B8A1F943CC300764987 /* BirdViewController.swift */,
+				0D7259511F95716200D04F83 /* BirdsData.swift */,
 			);
 			path = "The Birder's App";
 			sourceTree = "<group>";
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DBE7B891F943C8B00764987 /* BirdsTableViewController.swift in Sources */,
-				0DBE7B791F943A8C00764987 /* CountriesTableViewController.swift in Sources */,
+				0D7259521F95716200D04F83 /* BirdsData.swift in Sources */,
+				0DBE7B791F943A8C00764987 /* CountiesTableViewController.swift in Sources */,
 				0DBE7B771F943A8C00764987 /* AppDelegate.swift in Sources */,
 				0DBE7B8B1F943CC300764987 /* BirdViewController.swift in Sources */,
 			);
@@ -318,6 +322,7 @@
 				0DBE7B871F943A8C00764987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
