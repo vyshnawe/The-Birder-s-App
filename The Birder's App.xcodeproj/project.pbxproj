@@ -12,9 +12,10 @@
 		0DBE7B791F943A8C00764987 /* CountiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B781F943A8C00764987 /* CountiesTableViewController.swift */; };
 		0DBE7B7C1F943A8C00764987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7A1F943A8C00764987 /* Main.storyboard */; };
 		0DBE7B7E1F943A8C00764987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7D1F943A8C00764987 /* Assets.xcassets */; };
-		0DBE7B811F943A8C00764987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */; };
 		0DBE7B891F943C8B00764987 /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */; };
 		0DBE7B8B1F943CC300764987 /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7B8A1F943CC300764987 /* BirdViewController.swift */; };
+		0DECB9BC1F9E781E001F0E1A /* AddBirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DECB9BB1F9E781E001F0E1A /* AddBirdViewController.swift */; };
+		0DECB9BE1F9E783B001F0E1A /* AddCountiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DECB9BD1F9E783B001F0E1A /* AddCountiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +25,11 @@
 		0DBE7B781F943A8C00764987 /* CountiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountiesTableViewController.swift; sourceTree = "<group>"; };
 		0DBE7B7B1F943A8C00764987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DBE7B7D1F943A8C00764987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0DBE7B801F943A8C00764987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DBE7B821F943A8C00764987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
 		0DBE7B8A1F943CC300764987 /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
+		0DECB9BB1F9E781E001F0E1A /* AddBirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirdViewController.swift; sourceTree = "<group>"; };
+		0DECB9BD1F9E783B001F0E1A /* AddCountiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,12 @@
 				0DBE7B781F943A8C00764987 /* CountiesTableViewController.swift */,
 				0DBE7B7A1F943A8C00764987 /* Main.storyboard */,
 				0DBE7B7D1F943A8C00764987 /* Assets.xcassets */,
-				0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */,
 				0DBE7B821F943A8C00764987 /* Info.plist */,
 				0DBE7B881F943C8B00764987 /* BirdsTableViewController.swift */,
 				0DBE7B8A1F943CC300764987 /* BirdViewController.swift */,
 				0D7259511F95716200D04F83 /* BirdsData.swift */,
+				0DECB9BB1F9E781E001F0E1A /* AddBirdViewController.swift */,
+				0DECB9BD1F9E783B001F0E1A /* AddCountiesViewController.swift */,
 			);
 			path = "The Birder's App";
 			sourceTree = "<group>";
@@ -131,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DBE7B811F943A8C00764987 /* LaunchScreen.storyboard in Resources */,
 				0DBE7B7E1F943A8C00764987 /* Assets.xcassets in Resources */,
 				0DBE7B7C1F943A8C00764987 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DBE7B891F943C8B00764987 /* BirdsTableViewController.swift in Sources */,
+				0DECB9BC1F9E781E001F0E1A /* AddBirdViewController.swift in Sources */,
+				0DECB9BE1F9E783B001F0E1A /* AddCountiesViewController.swift in Sources */,
 				0D7259521F95716200D04F83 /* BirdsData.swift in Sources */,
 				0DBE7B791F943A8C00764987 /* CountiesTableViewController.swift in Sources */,
 				0DBE7B771F943A8C00764987 /* AppDelegate.swift in Sources */,
@@ -161,14 +165,6 @@
 				0DBE7B7B1F943A8C00764987 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0DBE7B7F1F943A8C00764987 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DBE7B801F943A8C00764987 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

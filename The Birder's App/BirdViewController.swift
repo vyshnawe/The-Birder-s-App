@@ -27,7 +27,7 @@ class BirdViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = birdObj.name!
         locationLabel.text = "\(birdObj.location.latitude), \(birdObj.location.longitude)"
-        dateLavel.text = "\(birdObj.dateFirstSighted.month!)/\(birdObj.dateFirstSighted.day!)/\(birdObj.dateFirstSighted.year!)/  \(birdObj.dateFirstSighted.hour!):\(birdObj.dateFirstSighted.minute!)"
+        dateLavel.text = birdObj.dateFirstSighted
         sightingsTextField.text = "\(birdObj.noOfSightings!)"
         birdimg.image = birdObj.image!
     }
